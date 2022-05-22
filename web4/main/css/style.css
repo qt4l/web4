@@ -1,0 +1,189 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.top_alert {
+  height: 40px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  line-height: 40px;
+  background-color: #000;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px 12px;
+}
+
+#lush {
+  margin-left: 25px;
+}
+
+.navbar_search {
+  display: flex;
+}
+
+#navbar_icon {
+   margin-right: 25px;
+   width: 25px;
+   height: 25px;
+}
+
+#main_img1 {
+  width: 100%;
+}
+
+.content_box {
+  height: 486px;
+  padding: 70px 0 0 0;
+}
+
+.bestsellers {
+  padding-left: 30px;
+  margin: 0 0 70px 80px;
+  width: 336px;
+  height: 100%;
+  background-color: #b0e3c2;
+}
+
+#best_img {
+  margin: 170px 0 10px 0;
+  width: 84px;
+  height: 64px;
+}
+
+.best_h {
+  margin: 10px 0;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.best_p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
+.match-btn {
+  font-size: 14px;
+  font-weight: bold;
+  border: solid 1px;
+  padding: 10px;
+  width: 180px;
+  height: 64px;
+  background-color: transparent;
+  margin-top: 16px;
+  color: #000;
+}
+
+.news {
+  display: flex;
+}
+
+.news_box1 {
+  width: 729px;
+  height: 773px;
+  padding-left: 80px;
+}
+
+#news_img1 {
+  width: 729px;
+  height: 484px;
+}
+
+.news_box2 {
+  margin-left: 70px;
+}
+
+#news_img2 {
+  width: 729px;
+  height: 484px;
+}
+
+#news_img3 {
+  width: 729px;
+  height: 484px;
+}
+
+#news_img4 {
+  width: 729px;
+  height: 484px;
+}
+
+.news_title {
+  margin: 30px 164px;
+  font-size: 2.375rem;
+  font-weight: bold;
+  line-height: 1.263;
+  text-align: center;
+}
+
+.explore_box:not(.content_box) {
+  margin: 60px 0 100px 0;
+  padding: 70px 80px 0 80px;
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/hair-background.jpg);
+}
+
+.explore_title {
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 3.75rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.explore_box2 {
+  display: flex;
+}
+
+.explore_img_box {
+  width: 478px;
+  height: 643px;
+}
+
+.explore_img_box_center {
+  width: 478px;
+  height: 643px;
+  margin: 0 40px;
+}
+
+.explore_img {
+  width: 478px;
+  height: 478px;
+}
+
+.explore_content {
+  margin-left: 39px;
+  padding: 32px 0;
+  width: 400px;
+  height: 158px;
+}
+
+.content {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-art {
+  margin-bottom: 10px;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 16px;
+  color: #000;
+}

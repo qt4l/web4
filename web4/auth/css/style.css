@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  background: url('../img/auth0-bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica Now Display, Helvetica, helvetica, sans-serif !important;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.logo-bar {
+  position: relative;
+  display: flex !important;
+  height: 70px;
+  background: #000;
+}
+
+.login-form {
+    max-width: 560px;
+    max-height: 468px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 56px;
+    text-align: center;
+    vertical-align: center;
+    border: none;
+
+}
+
+.text-field {
+      font-size: 14px;
+      padding: 10px;
+      border: solid 1px;
+      width: 448px;
+      height: 56px;
+      margin-bottom: 16px;
+
+}
+
+.login-btn {
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  width: 448px;
+  height: 56px;
+  background-color: #000;
+  margin-top: 16px;
+  color: white;
+}
+
+.signup-btn {
+  font-size: 14px;
+  border: solid 1px;
+  padding: 10px;
+  width: 448px;
+  height: 56px;
+  background-color: #fff;
+  margin-top: 16px;
+  color: #000;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+  font-size: 16px;
+  color: #000;
+}
